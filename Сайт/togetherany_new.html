@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>Togetherany</title>
+
+  <script src = 'G:\Мой диск\Сайт\scripts.js'></script>
+</head>
+
+<body class = 'en' onload = 'set_lang(), save_lang()'>
+
+<header>
+<img src = 'G:\Мой диск\Сайт_картинки\шапка для сайта .png' width = '100%'>
+</header>
+<div class = 'navigation'>
+  <table>
+    <tr>
+      <td class = 'nav'>
+          <img src = 'G:\Мой диск\Сайт_картинки\leaves.png' width = '50%' onclick = go_to_ecology()>
+      </td>
+      <td class = 'nav'>
+          <img src = 'G:\Мой диск\Сайт_картинки\chess_board.png' width = '50%' onclick = go_to_chess()>
+      </td>
+      <td class = 'nav'>
+          <img src = 'G:\Мой диск\Сайт_картинки\theatre.png' width = '50%' onclick = go_to_theatre()>
+      </td>
+      <td class =' nav'>
+        <img src = 'G:\Мой диск\Сайт_картинки\school.png' width = '50%' onclick = go_to_school()>
+      </td>
+      <td class = 'nav'>
+          <img src = 'G:\Мой диск\Сайт_картинки\gamepad.png' width = '50%' onclick = go_to_games()>
+      </td>
+      <td class = 'nav'>
+          <img src = 'G:\Мой диск\Сайт_картинки\phone.png' width = '50%' onclick = go_to_contacts()>
+      </td>
+    </tr>
+    <tr>
+      <td class = 'nav' onclick = go_to_ecology()><h6 class = 'ru'>Экология и не только</h6><h6 class = 'en'>Eco-activities and other</h6></td>
+      <td class = 'nav' onclick = go_to_chess()><h6 class = 'ru'>Шахматный клуб</h6><h6 class = 'en'>Chess club</h6></td>
+      <td class = 'nav' onclick = go_to_theatre()><h6 class = 'ru'>Театр</h6><h6 class = 'en'>Theatre</h6></td>
+      <td class = 'nav' onclick = go_to_school()><h6 class = 'ru'>Школа</h6><h6 class = 'en'>School</h6></td>
+      <td class = 'nav' onclick = go_to_games()><h6 class = 'ru'>Игровой клуб</h6><h6 class = 'en'>Game club</h6></td>
+      <td class = 'nav' onclick = go_to_contacts()><h6 class = 'ru'>Контактная информация</h6><h6 class = 'en'>Contact info</h6></td>
+    </tr>
+    <td></td>
+    <td class = 'nav'>
+        <img src = 'G:\Мой диск\Сайт_картинки\leaves.png' width = '50%' onclick = go_to_art()>
+    </td>
+    <td class = 'nav'>
+        <img src = 'G:\Мой диск\Сайт_картинки\chess_board.png' width = '50%' onclick = go_to_quests()>
+    </td>
+    <td class = 'nav'>
+        <img src = 'G:\Мой диск\Сайт_картинки\theatre.png' width = '50%' onclick = go_to_contests()>
+    </td>
+    <td class = 'nav'>
+      <img src = 'G:\Мой диск\Сайт_картинки\school.png' width = '50%' onclick = go_to_problems()>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td class = 'nav' onclick = go_to_art()><h6 class = 'ru'>Художества</h6><h6 class = 'en'>Art</h6></td>
+    <td class = 'nav' onclick = go_to_quests()><h6 class = 'ru'>Квесты и викторины</h6><h6 class = 'en'>Quests and quizes</h6></td>
+    <td class = 'nav' onclick = go_to_contests()><h6 class = 'ru'>Конкурсы</h6><h6 class = 'en'>Contests</h6></td>
+    <td class = 'nav' onclick = go_to_problems()><h6 class = 'ru'>Задачки</h6><h6 class = 'en'>Problems</h6></td>
+  </tr>
+
+</table>
+</div>
+
+<div class = 'menu'>
+  <p class = 'menu-header' onclick = 'go_home()'>Togetherany</p>
+  <p class = 'en menu-chapter'>Culture</p><p class = 'ru menu-chapter'>Культура</p>
+  <p onclick = 'go_to_quests()' class = 'en menu-item'>Quests and quizes</p><p onclick = 'go_to_quests()' class = 'ru menu-item'>Квесты и викторины</p>
+  <p onclick = 'go_to_theatre()' class = 'en menu-item'>Theatre</p><p onclick = 'go_to_theatre()' class = 'ru menu-item'>Театр</p>
+  <p onclick = 'go_to_ecology()' class = 'en menu-item'>Ecology and other</p><p onclick = 'go_to_ecology()' class = 'ru menu-item'>Экология и не только</p>
+  <p onclick = 'go_to_art()' class = 'en menu-item'>Art</p><p onclick = 'go_to_art()' class = 'ru menu-item'>Художества</p>
+  <p onclick = 'go_to_problems()' class = 'en menu-item'>Problems</p><p onclick = 'go_to_problems()' class = 'ru menu-item'>Задачки</p>
+  <p class = 'en menu-chapter'>Entertainment</p><p class = 'ru menu-chapter'>Развлечения</p>
+  <p onclick = 'go_to_chess()' class = 'en menu-item'>Chess club</p><p onclick = 'go_to_chess()' class = 'ru menu-item'>Шахматный клуб</p>
+  <p onclick = 'go_to_games()' class = 'en menu-item'>Game club</p><p onclick = 'go_to_games()' class = 'ru menu-item'>Игровой клуб</p>
+  <p onclick = 'go_to_contests()' class = 'en menu-item'>Contests</p><p onclick = 'go_to_contests()' class = 'ru menu-item'>Конкурсы</p>
+  <p class = 'en menu-chapter' onclick = 'go_to_contacts()'>Contact info</p><p class = 'ru menu-chapter' onclick = 'go_to_contacts()'>Контактная информация</p>
+  <p class = 'en lang_butt' onclick = 'trans_to_ru(), save_lang()'><img src = 'https://catherineasquithgallery.com/uploads/posts/2021-03/1614846271_41-p-fon-flag-rossii-46.jpg' width = '20%'></p>
+  <p class = 'ru lang_butt' onclick = 'trans_to_en(), save_lang()'><img src = 'https://pixy.org/src/7/75888.jpg' width = '20%'></p>
+</div>
+
+<div class = 'content'>
+<section>
+  <hr width = '100%'>
+  <h1 class = 'ru'>О нас и нашем проекте</h1><h1 class = 'en'>About us and our project</h1>
+  <h2 class = 'ru'>Что это за сайт?</h2><h2 class = 'en'>What is this site?</h2>
+  <h5 class = 'ru'>Этот сайт создан в рамках проекта по культурному обмену между школами России и Германии. Данный обмен проводился ежегодно до 2020 года, когда люди во всех странах были вынуждены находиться дома, редко выходя даже на улицу, не говоря уже о выезде за границу. Осознав реалии пандемии, наша команда во второй половине 2021 года принялась за работу над проектом, который позволил бы провести ежегодную программу по обмену в виртуальном формате. Данный ресурс посвящён программе по обмену 2022 года и может быть дополнен для проведения будущих программ. Участники обмена - Средняя общеобразовательная школа № 45 Приморского района Санкт-Петербурга и GSBSchule Bergedorf Hamburg.</h5>
+  <h5 class = 'en'>This site has been created for the international student exchange between russian and german schools. Such exchanges had been being conducted before 2020.That year people all over the world had to stay home with no way to go abroad. Realizing the pandemic realities, in the second half of 2021 our team began working on a project that would help to arrange a remote exchange program. This site is dedicated to the 2022 exchange and it's possible that it'll be completed for the future ones. The participants of this program are the Secondary School №45 of Saint-Petersburg's Primorskiy district and GSBSchule Bergedorf Hamburg.</h5>
+  <h2 class = 'ru'>Кто мы такие?</h2><h2 class = 'en'>Who are we?</h2>
+  <h5 class = 'ru'>Наша команда состоит из учеников 9-11 классов школы 45 в Санкт-Петербурге и контролируется учителями школы. Несколько человек выполняют роль технических специалистов, создавая и администрируя ресурсы для проведения программы по обмену. Некоторые участники создают контент для обогащения культурного опыта иностранных школьников. Все вместе мы создаём общий продукт, который послужит средством для познавательного и содержательного досуга для всех участников программы. Наша цель - провести программу по обмену в виртуальном формате, но с сохранением качества и количества общения с противоположной стороной проекта.</h5>
+  <h5 class = 'en'>Our team consist of students of grades 9 to 11 of Secondary School №45 of Saint-Petersburg and is guided by the school teachers. Some of us are playing a role of technical specialists who are creating and administrating the exchange resources. Some are producing content for cultural enrichment of the foreign students. Together we are building the collective product that will become means for informative and interesting leisure for all of the project's participants. Our goal is to conduct the exchange program virtually but with former quality and amount of communication between the project sides.</h5>
+  <h2 class = 'ru'>Из каких частей состоит проект?</h2><h2 class = 'en'>What parts does the project consist of?</h2>
+  <h5 class = 'ru'>Во-первых, техническая часть реализована в виде интернет-сайта, созданного с помощью <strike>Google.sites</strike> вот этих вот ручек &#9995; &#129306;, виртуальной доски на ресурсе Padlet, виртуального бота-собеседника в мессенджере Telegram, Telegram-канала для обсуждения интересующих культурных аспектов жизни в странах-участницах проекта и новостей. Во-вторых, образовательная программа проекта представляет собой несколько виртуальных тематических квестов по Санкт-Петербургу, а также серию викторин, посвящённых культуре и истории России. В-третьих, коммуникативная составляющая реализуется с помощью видеоконференций и общения с использованием интернет-ресурсов.</h5>
+  <h5 class = 'en'>First, there is the technical component that is being represented by an Internet-site created with <strike>Google.sites</strike> certain someone's hands ✋ 🤚, Padlet virtual board, virtual Telegram bot-companion, Telegram channel created to discuss interesting or concerning cultural aspects of one's life in the participants' countries, or just news. Second, there is the educational program featuring several virtual quests around Saint-Petersburg, a selection of quizes about russian culture and history. Third, the communicational part is being realized by video conferences and discussions within the Internet resources.</h5>
+</section>
+
+<section style = 'text-align:center'>
+  <hr width = '100%'>
+  <h1 class = 'ru'>Наша команда</h1><h1 class = 'en'>Our team</h1>
+  <h1><img src = 'G:\Мой диск\Сайт_картинки\group_photo.jpg' width = '90%'></h1>
+  <div align = 'center'>
+    <div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:90%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/udypsjz2ingsmiof" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="display:flex;align-items:center;justify-content:end;margin:0;height:28px"><a href="https://padlet.com?ref=embed" style="display:block;flex-grow:0;margin:0;border:none;padding:0;text-decoration:none" target="_blank"><div style="display:flex;align-items:center;"><img src="https://padlet.net/embeds/made_with_padlet_2022.png" width="114" height="28" style="padding:0;margin:0;background:0 0;border:none;box-shadow:none" alt="Сделано на Padlet"></div></a></div></div>
+  </div>
+</section>
+<section align = 'center'>
+  <hr width = '100%'>
+  <iframe width="560" height="315" src="https://youtu.be/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+  <br>
+    <h5 class = 'ru'>Да, на этом месте должна быть визитка, но пока нема.
+      <br>В этом видео Вы можете ознакомиться с интерьером Средней школы №45, о которой на английском языке расскажут участники нашего проекта.
+    </h5>
+    <h5 class = 'en'>Yeah, there has to be the video about our school but, sadly, there isn't as of yet.
+      <br>In this video you can become acquainted with School №45's interior in English.
+    </h5>
+</section>
+<section align = 'center'>
+  <hr width = '100%'>
+  <div align = 'center'>
+    <div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:90%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/c0ymvwxavexw1bnk" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="display:flex;align-items:center;justify-content:end;margin:0;height:28px"><a href="https://padlet.com?ref=embed" style="display:block;flex-grow:0;margin:0;border:none;padding:0;text-decoration:none" target="_blank"><div style="display:flex;align-items:center;"><img src="https://padlet.net/embeds/made_with_padlet_2022.png" width="114" height="28" style="padding:0;margin:0;background:0 0;border:none;box-shadow:none" alt="Сделано на Padlet"></div></a></div></div>
+  </div>
+</section>
+</div>
+
+
+<footer style = 'background-color:FFFFFF'>
+  <div align = 'center' width = '70%'>
+  <h2>Togetherany</h2>
+  </div>
+</footer>
+
+</body>
+
+
+</html>

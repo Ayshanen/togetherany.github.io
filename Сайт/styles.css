@@ -1,0 +1,188 @@
+
+h1{
+  font-size: 30px;
+  color: blue;
+  margin-left: 0px;
+  margin-bottom: 30px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center;
+}
+
+h2{
+  color: blue;
+  margin-left: 5%;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h3{
+  font-size: 20px;
+  /*
+  margin-left: 20%;
+  margin-right: 20%;
+  */font-family: "Comic Sans MS", "Comic Sans", cursive;
+  line-height: 1.5;
+}
+
+h4{
+
+}
+
+h5{
+  font-size: 17px;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  line-height: 1.5;
+}
+
+h6{
+  font-size: 15px;
+  margin: 10px auto;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: E9E9E9;
+}
+
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.container{
+  position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    font-size: 40px;
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dark img{
+  filter: brightness(70%);
+  text-align: right;
+}
+
+aside {
+ float: right;
+}
+
+.lang_butt{
+  /*background-color: white;
+  */border: 1px solid black;
+  text-align: left;
+  margin-left: 10%;
+  color: black;
+}
+
+
+.en_lang {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.lang_buttons {
+  text-align: right;
+}
+.lang_buttons .button {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid gray;
+  padding: 5px 15px;
+  margin-top: 20px;
+  margin-right: 0;
+}
+.lang_buttons .en_lang {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+
+body.en .ru,
+body.ru .en {
+  display: none;
+}
+
+.menu{
+  color: white !important;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  width: 15%;
+  height: 100%;
+  font-size: 20px;
+}
+
+#menu{
+
+}
+
+.navigation{
+  margin-left: 18%;
+  width: 80%;
+}
+
+td.nav{
+  width: 17%;
+  text-align: center;
+}
+
+section{
+
+}
+
+p{
+  margin-bottom: 0px;
+}
+
+.content{
+  margin-left: 25%;
+  margin-right: 10%;
+  /*border: 1px solid black;*/
+}
+
+header{
+  margin-left: 15%;
+  margin-bottom: 50px;
+}
+
+.menu-header{
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  line-height: 1.5;
+}
+
+.menu-chapter{
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    line-height: 1;
+    margin-left: 5%;
+}
+
+.menu-item{
+  text-align: left;
+  color: white;
+  margin-left: 10%;
+  font-size: 20px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  line-height: 1;
+}
