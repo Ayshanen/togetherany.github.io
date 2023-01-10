@@ -1,35 +1,35 @@
 function go_to_ecology(){
-  document.location.href = 'G:/Мой диск/Сайт/ecology.html';
+  document.location.href = 'Сайт/ecology.html';
 }
 function go_to_chess(){
-  document.location.href = 'G:/Мой диск/Сайт/chess.html';
+  document.location.href = 'Сайт/chess.html';
 }
 function go_to_theatre(){
-  document.location.href = 'G:/Мой диск/Сайт/theatre.html';
+  document.location.href = 'Сайт/theatre.html';
 }
 function go_to_school(){
   document.location.href = 'http://sckola45.spb.ru';
 }
 function go_to_games(){
-  document.location.href = 'G:/Мой диск/Сайт/games.html';
+  document.location.href = 'Сайт/games.html';
 }
 function go_to_contacts(){
-  document.location.href = 'G:/Мой диск/Сайт/contacts.html';
+  document.location.href = 'Сайт/contacts.html';
 }
 function go_to_contests(){
-  document.location.href = 'G:/Мой диск/Сайт/contests.html';
+  document.location.href = 'Сайт/contests.html';
 }
 function go_to_problems(){
-  document.location.href = 'G:/Мой диск/Сайт/problems.html';
+  document.location.href = 'Сайт/problems.html';
 }
 function go_to_art(){
-  document.location.href = 'G:/Мой диск/Сайт/art.html';
+  document.location.href = 'Сайт/art.html';
 }
 function go_to_quests(){
-  document.location.href = 'G:/Мой диск/Сайт/quests.html';
+  document.location.href = 'Сайт/quests.html';
 }
 function go_home(){
-  document.location.href = 'G:/Мой диск/Сайт/togetherany_new.html';
+  document.location.href = 'Сайт/togetherany_new.html';
 }
 
 function trans_to_en(){
