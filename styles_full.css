@@ -142,8 +142,9 @@ h1{
     text-align: center;
   }
   
-  section{
-  
+  main{
+    margin-left: 25%;
+    margin-right: 10%;
   }
   
   p{
