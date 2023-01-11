@@ -29,7 +29,7 @@ function go_to_ecology(){
     document.location.href = 'Сайт/quests.html';
   }
   function go_home(){
-    document.location.href = 'Сайт/togetherany_new.html';
+    document.location.href = 'togetherany_home.html';
   }
   
   function trans_to_en(){
