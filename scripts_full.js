@@ -1,35 +1,39 @@
-function go_to_ecology(){
-    document.location.href = 'Сайт/ecology.html';
+function class_11(){
+    document.location.href = '11_class.html';
   }
   function go_to_chess(){
-    document.location.href = 'Сайт/chess.html';
+    document.location.href = 'chess_club.html';
   }
   function go_to_theatre(){
-    document.location.href = 'Сайт/theatre.html';
+    document.location.href = 'theatre.html';
   }
   function go_to_school(){
     document.location.href = 'http://sckola45.spb.ru';
   }
   function go_to_games(){
-    document.location.href = 'Сайт/games.html';
+    document.location.href = 'game_club.html';
   }
-  function go_to_contacts(){
-    document.location.href = 'Сайт/contacts.html';
+  function go_to_debates(){
+    document.location.href = 'debates.html';
   }
-  function go_to_contests(){
-    document.location.href = 'Сайт/contests.html';
+  function go_to_history(){
+    document.location.href = 'history_dive.html';
   }
-  function go_to_problems(){
-    document.location.href = 'Сайт/problems.html';
+  function go_to_thematic_week(){
+    document.location.href = 'thematic_week.html';
   }
-  function go_to_art(){
-    document.location.href = 'Сайт/art.html';
+  function go_to_projects(){
+    document.location.href = 'projects.html';
   }
   function go_to_quests(){
     document.location.href = 'Сайт/quests.html';
   }
   function go_home(){
     document.location.href = 'togetherany_home.html';
+  }
+  
+  function go_to_universities(){
+    document.location.href = 'universities.html';
   }
   
   function trans_to_en(){
