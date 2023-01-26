@@ -8,14 +8,14 @@ h1{
     color: blue;
     margin-left: 0px;
     margin-bottom: 30px;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    
     text-align: center;
   }
   
   h2{
     color: blue;
     margin-left: 5%;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    
   }
   
   h3{
@@ -23,7 +23,7 @@ h1{
     /*
     margin-left: 20%;
     margin-right: 20%;
-    */font-family: "Comic Sans MS", "Comic Sans", cursive;
+    */
     line-height: 1.5;
   }
   
