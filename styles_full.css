@@ -5,11 +5,6 @@ body{
 @font-face {
 	font-family: 'AmericanTypewriter LT Cn [Rus b Bold';
 	src: url('../fonts/americantypewriter_lt_cn_rus_b_bold.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/americantypewriter_lt_cn_rus_b_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('../fonts/americantypewriter_lt_cn_rus_b_bold.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/americantypewriter_lt_cn_rus_b_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('../fonts/americantypewriter_lt_cn_rus_b_bold.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('../fonts/americantypewriter_lt_cn_rus_b_bold.svg#americantypewriter_lt_cn_rus_b_bold') format('svg'); /* Chrome < 4, Legacy iOS */
 }
 
 h1{
