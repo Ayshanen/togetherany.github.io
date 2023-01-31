@@ -35,6 +35,14 @@ function class_11(){
   function go_to_universities(){
     document.location.href = 'universities.html';
   }
+
+  function go_to_events(){
+    document.location.href = 'events.html';
+  }
+
+  function go_to_archive(){
+    document.location.href = 'archive.html';
+  }
   
   function trans_to_en(){
     document.body.classList.remove('ru');
