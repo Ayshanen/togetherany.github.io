@@ -29,11 +29,11 @@ function class_11(){
     document.location.href = 'Сайт/quests.html';
   }
   function go_home(){
-    document.location.href = 'Сайт\togetherany_new.html';
+    document.location.href = 'togetherany_home.html';
   }
   
   function go_to_2022(){
-    document.location.href = 'Сайт/togetherany_new.html';
+    document.location.href = 'Сайт\togetherany_new.html';
   }
   function go_to_universities(){
     document.location.href = 'universities.html';
