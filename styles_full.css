@@ -1,7 +1,3 @@
-body{
-  font-family: 'AmericanTypewriter LT Cn [Rus b Bold', sans-serif;
-}
-
 @font-face {
 	font-family: 'AmericanTypewriter LT Cn [Rus b Bold';
 	src: url('fonts/americantypewriter_lt_cn_rus_b_bold.eot'); /* IE 9 Compatibility Mode */
@@ -11,6 +7,12 @@ body{
 		url('fonts/americantypewriter_lt_cn_rus_b_bold.ttf') format('truetype'), /* Safari, Android, iOS */
 		url('fonts/americantypewriter_lt_cn_rus_b_bold.svg#americantypewriter_lt_cn_rus_b_bold') format('svg'); /* Chrome < 4, Legacy iOS */
 }
+
+body{
+  font-family: 'AmericanTypewriter LT Cn [Rus b Bold', sans-serif;
+}
+
+
 
 h1{
     font-size: 30px;
