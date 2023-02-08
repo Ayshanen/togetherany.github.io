@@ -33,7 +33,8 @@ function class_11(){
   }
   
   function go_to_2022(){
-    document.location.href = 'Сайт\togetherany_new.html';
+    /*document.location.href = 'Сайт/togetherany_new.html';*/
+    document.location.href = 'http://v92157hb.beget.tech/';
   }
   function go_to_universities(){
     document.location.href = 'universities.html';
