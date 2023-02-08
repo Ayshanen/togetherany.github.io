@@ -37,10 +37,7 @@ h1{
     */
     line-height: 1.5;
   }
-  
-  h4{
-  
-  }
+   
   
   h5{
     font-size: 17px;
@@ -141,9 +138,6 @@ h1{
     font-size: 20px;
   }
   
-  #menu{
-  
-  }
   
   .navigation{
     margin-left: 18%;
@@ -200,6 +194,6 @@ h1{
     font-size: 20px;
     
     
-    line-height: 5px;
+    line-height: 25px;
   }
   
