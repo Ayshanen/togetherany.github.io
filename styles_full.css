@@ -94,7 +94,7 @@ h1{
   
   .lang_butt{
     /*background-color: white;
-    */border: 1px solid black;
+    border: 1px solid black;*/
     text-align: left;
     margin-left: 10%;
     color: black;
@@ -198,8 +198,8 @@ h1{
     color: white;
     margin-left: 10%;
     font-size: 20px;
-    padding: 1px;
-    margin-bottom: 3px;
-    /*line-height: 50%;*/
+    
+    
+    line-height: 5px;
   }
   
