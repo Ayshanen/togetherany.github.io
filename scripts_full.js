@@ -26,7 +26,7 @@ function class_11(){
     document.location.href = 'projects.html';
   }
   function go_to_quests(){
-    document.location.href = 'Сайт/quests.html';
+    document.location.href = 'quests.html';
   }
   function go_home(){
     document.location.href = 'togetherany_home.html';
