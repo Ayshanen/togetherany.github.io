@@ -1,4 +1,4 @@
-function class_11(){
+function go_to_class_11(){
     document.location.href = '11_class.html';
   }
   function go_to_chess(){
