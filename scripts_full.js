@@ -62,8 +62,8 @@ function go_to_class_11(){
   
   function save_lang(){
     lang = document.body.classList;
-    window.localStorage.setItem('language', lang);
     if (!(lang == 'en') || !(lang == 'ru')) lang = 'en';
+    window.localStorage.setItem('language', lang);
   }
   
   function set_lang(){
