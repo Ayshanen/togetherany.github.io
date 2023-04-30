@@ -63,7 +63,7 @@ function go_to_class_11(){
   function save_lang(){
     //lang = document.body.classList;
     lang = window.localStorage.getItem('language');
-    if (!(lang == 'en') || !(lang == 'ru')) lang = 'ru';
+    if (!(lang == 'en') && !(lang == 'ru')) lang = 'en';
     window.localStorage.setItem('language', lang);
   }
   
