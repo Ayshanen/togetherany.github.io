@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles_full.css">
+  <title>Togetherany</title>
+
+  <script src = 'scripts_full.js'></script>
+</head>
+
+<body class = 'en' onload = 'set_lang(), save_lang()'>
+
+<header>
+<img src = 'images/IMG_6186.JPEG' width = '100%' style = 'text-align: center;'>
+</header>
+<div class = 'navigation'>
+  <table>
+    <tr>
+      <td class = 'nav'>
+        <img src = 'images/Пётр1.jpg' width = '100%' onclick = 'go_to_archive()'>
+      </td>
+      
+      <td class = 'nav'>
+        <img src = 'images/Пушкин.jpg' width = '100%' onclick = 'go_to_debates()'>
+      </td>
+
+      <td class = 'nav'>
+        <img src = 'images/euler.jpg' width = '95%' onclick = 'go_to_quests()'>
+        </td>
+        <td class = 'nav'>
+          <img src = 'images/gates.jpg' width = '100%' onclick = 'go_to_class_11()'>
+          </td>
+    </tr>
+    <tr>
+      <td class = 'nav'>
+        <p class = 'ru'>Пётр I Великий: «Выше всех добродетелей рассуждение, ибо всякая добродетель без разума - пуста».</p>
+        <p class = 'en'>Peter the Great: "Reasoning1s above all virtues, for every virtue without reason 1s empty".</p>
+      </td>
+      
+      <td class = 'nav'>
+        <p class = 'ru'>Александр Пушкин: «Уважение к минувшему - вот черта, отличающая образованность от дикости».</p>
+        <p class = 'en'>Alexander Pushkin: "Respect for the past is the trait that distinguishes education from savagery".</p>
+      </td>
+
+      <td class = 'nav'>
+        <p class = 'ru'>Леонард Эйлер: «Знания, которые подтверждаются только наблюдениями и еще не доказаны, следует тщательно отличать от истины».</p>
+        <p class = 'en'>Leonard Euler: "Knowledge that ls confirmed only bу observations and has not yet been proven should bе carefully distinguished from the truth”.</p>
+
+      </td>
+        <td class = 'nav'>
+          <p class = 'ru'>Билл Гейтс: «Я твердо верю, что любой инструмент, улучшающий общение, имеет огромное влияние...»</p>
+          <p class = 'en'>William Gates: "1 firmly believe that any tool that improves communication has а huge impact".</p>
+          </td>
+    </tr>
+</table>
+</div>
+
+<div class = 'menu'>
+  <p class = 'menu-header' onclick = 'go_home()'><img src = 'images\IMG_6180.PNG' width = '100%' alt = Togetherany></p>
+  <p class = 'menu-chapter'></p>
+  <p class = 'menu-item ru' onclick = 'go_to_archive()'>Архив обменов</p>
+  <p class = 'menu-item ru' onclick = 'go_to_debates()'>Конференции</p>
+  <p class = 'menu-item ru' onclick = 'go_to_history()'>Погружения</p>
+  <p class = 'menu-item ru' onclick = 'go_to_chess()'>Шахматный клуб</p>
+  <p class = 'menu-item ru' onclick = 'go_to_games()'>Игровой клуб</p>
+  <p class = 'menu-item ru' onclick = 'go_to_thematic_week()'>Тематические<br> недели</p>
+  <p class = 'menu-item ru' onclick = 'go_to_events()'>События</p>
+  <p class = 'menu-item ru' onclick = 'go_to_universities()'>ВУЗы</p>
+  <p class = 'menu-item ru' onclick = 'go_to_projects()'>Проекты</p>
+  <p class = 'menu-item ru' onclick = 'go_to_quests()'>Викторины</p>
+  <p class = 'menu-item ru' onclick = 'class_11()'>Лекции</p>
+  <p class = 'menu-item ru' onclick = 'go_to_theatre()'>Театр</p>
+
+  <p class = 'menu-item en' onclick = 'go_to_archive()'>Exchanges</p>
+  <p class = 'menu-item en' onclick = 'go_to_debates()'>Conferences</p>
+  <p class = 'menu-item en' onclick = 'go_to_history()'>History dives</p>
+  <p class = 'menu-item en' onclick = 'go_to_chess()'>Chess club</p>
+  <p class = 'menu-item en' onclick = 'go_to_games()'>Game club</p>
+  <p class = 'menu-item en' onclick = 'go_to_thematic_week()'>Thematic weeks</p>
+  <p class = 'menu-item en' onclick = 'go_to_events()'>Events</p>
+  <p class = 'menu-item en' onclick = 'go_to_universities()'>Universities</p>
+  <p class = 'menu-item en' onclick = 'go_to_projects()'>Projects</p>
+  <p class = 'menu-item en' onclick = 'go_to_quests()'>Quests</p>
+  <p class = 'menu-item en' onclick = 'go_to_class_11()'>Lections</p>
+  <p class = 'menu-item en' onclick = 'go_to_theatre()'>Theatre</p>
+
+  <p class = 'en lang_butt' onclick = 'trans_to_ru(), save_lang()'><img src = 'https://catherineasquithgallery.com/uploads/posts/2021-03/1614846271_41-p-fon-flag-rossii-46.jpg' width = '20%'></p>
+  <p class = 'ru lang_butt' onclick = 'trans_to_en(), save_lang()'><img src = 'https://blog.netcetera.uk/wp-content/uploads/2019/06/ROR-Blog-Banner.png' width = '20%'></p>
+</div>
+
+<main>
+<section>
+  <article>
+  <hr width = '100%'>
+  <h1 class = 'ru'>О проекте</h1>
+  <h2 class = 'ru'>Что это за сайт?</h2>
+  <p class = 'ru'>Этот сайт был создан в рамках проекта по культурному обмену между школами России и Германии. Данный обмен проводился ежегодно до 2020 года, когда люди во всех странах были вынуждены находиться дома, редко выходя даже на улицу, не говоря уже о выезде за границу. Во второй половине 2021 года наша команда принялась за работу над проектом, который позволил бы провести ежегодную программу по обмену в виртуальном формате. Данный ресурс направлен на проведение внутри- и межшкольных мероприятий ГБОУ СОШ №45, в том числе международных и региональных обменных программ. </p>
+  <h2 class = 'ru'>Что здесь можно найти?</h2>
+  <p class = 'ru'>На этом сайте размещается информация о внутри- и межшкольных мероприятиях с участием ГБОУ школы №45 Приморского района Санкт-Петербурга. На страницах этого сайта можно найти контент, создаваемый в ходе этих мероприятий, и пространство для общения и совместной деятельности, а также полезную информацию о том, как подключиться к нашей медиаинфраструктуре, о событиях в нашем окружении и ВУЗах нашего города. Кроме этого, на сайте размещены материалы, которые помогут лучше познакомиться с историей и культурой Санкт-Петербурга, с интересными темами по школьной программе.</h5>
+  <h2 class = 'ru'>Из каких частей состоит проект?</h2>
+  <p class = 'ru'>Во-первых, техническая часть реализована в виде интернет-сайта, созданного с помощью <strike>Google.sites</strike> вот этих вот ручек &#9995; &#129306;, виртуальной доски на ресурсе Padlet, виртуального бота-собеседника в мессенджере Telegram, Telegram-канала для обсуждения интересующих культурных аспектов жизни в странах-участницах проекта и новостей. Во-вторых, образовательная программа проекта представляет собой несколько виртуальных тематических квестов по Санкт-Петербургу, а также серию викторин, посвящённых культуре и истории России. В-третьих, коммуникативная составляющая реализуется с помощью видеоконференций и общения с использованием интернет-ресурсов.</p>
+  
+  <h1 class = 'en'>About this project</h1>
+  <h2 class = 'en'>What is this site?</h2>
+  <p class = 'en'>This site has been created for the international student exchange between russian and german schools. Such exchanges had been being conducted before 2020.That year people all over the world had to stay home with no way to go abroad. Realizing the pandemic realities, in the second half of 2021 our team began working on a project that would help to arrange a remote exchange program. This site is dedicated to the 2022 exchange and it's possible that it'll be completed for the future ones. The participants of this program are the Secondary School №45 of Saint-Petersburg's Primorskiy district and GSBSchule Bergedorf Hamburg. This site is dedicated to the events our school participates in.</p>
+  <h2 class = 'en'>What can you find here?</h2>
+  <p class = 'en'>This site contains information about events our school participates in. Here, you can find content created during this events, a space for communication and activities and information about how you can join our project, about various events in our city and universities of our city. Besides, here you can find materials that will help you to become accostumed to Saint-Petersburg's culture, to various school-related materials for lessons.</p>
+  <h2 class = 'en'>What parts does the project consist of?</h2>
+  <p class = 'en'>First, there is the technical component that is being represented by an Internet-site created with Google.sites certain someone's hands ✋ 🤚, Padlet virtual board, virtual Telegram bot-companion, Telegram channel created to discuss interesting or concerning cultural aspects of one's life in the participants' countries, or just news. Second, there is the educational program featuring several virtual quests around Saint-Petersburg, a selection of quizes about russian culture and history. Third, the communicational part is being realized by video conferences and discussions within the Internet resources.</p>
+  
+</article>
+
+<article>
+  <br>
+  <br>
+  <img src = 'images\история бренда.png' width = '100%'>
+</article>
+</section>
+
+
+<section align = 'center'>
+  <hr width = '100%'>
+  <video width="100%" controls>
+    <source src="визитка.MOV" type="video/mp4">
+  </video>
+  <br>
+    <p class = 'ru'>
+      <br>В этом видео Вы можете ознакомиться с интерьером Средней школы №45, о которой на английском языке расскажут участники нашего проекта.
+    </p>
+    <p class = 'en'>
+      <br>In this video you can become accostumed to the School №45 interior. Our project members will guide you.
+    </p>
+
+</section>
+<section align = 'center'>
+  <hr width = '100%'>
+  <div align = 'center'>
+    <div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/mkp6uywu2rq6511k" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="display:flex;align-items:center;justify-content:end;margin:0;height:28px"><a href="https://padlet.com?ref=embed" style="display:block;flex-grow:0;margin:0;border:none;padding:0;text-decoration:none" target="_blank"><div style="display:flex;align-items:center;"><img src="https://padlet.net/embeds/made_with_padlet_2022.png" width="114" height="28" style="padding:0;margin:0;background:0 0;border:none;box-shadow:none" alt="Сделано на Padlet"></div></a></div></div>
+</section>
+
+<article>
+  <h1 class = 'ru'>Как к нам присоединиться?</h1>
+  <p class = 'ru'>Вся подробная информация по проекту размещена в <a href = 'https://vk.com/togetherany45'>группе ВКонтакте:</a>. Также вы можете обратиться к администраторам проекта:</p>
+  <h1 class = 'en'>How can you join us?</h1>
+  <p class = 'en'>You can find all the info in the <a href = 'https://vk.com/togetherany45'>VK group:</a>. Alternatively, you can address project administrators:</p>
+
+</article>
+
+</main>
+
+
+<footer style = 'background-color:FFFFFF;  margin-left: 25%; width: 65%;'>
+  
+  <h2>Togetherany, 2023</h2>
+  <p class = 'ru'>Администратор сайта: Telegram @ayshanen<br>
+    Создатель бота: Telegram @PonChick3n<br>
+    Администратор виртуальных досок: Telegram @naz_inga<br>
+    Телеграм-канал: <a>https://t.me/+Uq2ZpM-O7IJjYWUy</a>
+  </p>
+  <p class = 'en'>Website administrator: Telegram @ayshanen<br>
+    Tg bot creator: Telegram @PonChick3n<br>
+    Bulletin board administrator: Telegram @naz_inga<br>
+    Telegram-channel: <a>https://t.me/+Uq2ZpM-O7IJjYWUy</a>
+  </p>
+</footer>
+
+</body>
+
+
+</html>
